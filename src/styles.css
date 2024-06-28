@@ -5,7 +5,28 @@ body {
   height: 100%;
 }
 body {
-  padding: 0;
+  font-family: Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif,
+    "Helvetica Neue", sans-serif;
+}
+
+* {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+
+  &:hover {
+    opacity: 0.75;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-weight: 800;
 }
