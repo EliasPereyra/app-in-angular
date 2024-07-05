@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'form',
+  selector: 'form-component',
   template: `
     <form>
       <label>Name: <input /></label>
@@ -10,5 +10,6 @@ import { Component } from '@angular/core';
     </form>
   `,
   standalone: true,
+  styleUrl: './form.component.css',
 })
 export class Form {}
